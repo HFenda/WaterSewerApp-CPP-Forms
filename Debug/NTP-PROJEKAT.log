@@ -1,0 +1,26 @@
+﻿  MyForm.cpp
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1947,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1948,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1949,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1950,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1951,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1952,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1962,28): warning C4244: 'argument': conversion from 'double' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(1972,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2139,21): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2194,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2201,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2210,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2219,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2228,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2237,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2245,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2253,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.h(2262,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\MyForm.cpp(8,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  NTP-PROJEKAT.vcxproj -> C:\Users\xy\source\repos\NTP-PROJEKAT\Debug\NTP-PROJEKAT.exe

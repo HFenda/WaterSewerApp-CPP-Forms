@@ -1,0 +1,3 @@
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\Debug\NTP-PROJEKAT.vcxproj.AssemblyReference.cache
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\Debug\NTPPROJEKAT.MyForm.resources
+C:\Users\xy\source\repos\NTP-PROJEKAT\NTP-PROJEKAT\Debug\NTP-PROJEKAT.vcxproj.GenerateResource.cache
