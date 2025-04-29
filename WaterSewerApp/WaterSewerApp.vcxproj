@@ -19,39 +19,39 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{805685AD-2D98-4063-AEB5-06C57432D6DA}</ProjectGuid>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{7AD8C34D-979E-4C41-A833-E91B3929E6F4}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
-    <RootNamespace>NTPPROJEKAT</RootNamespace>
+    <RootNamespace>WaterSewerApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -74,10 +74,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup />
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -85,10 +85,10 @@
       <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -128,8 +128,29 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\my_file.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\0-02-05-b1fe12c20337936ea89b1300a0487cdb6b8dc8ec7d5146e641df40e34c120162_bc3c5177e3bf886f.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\0-02-05-fb7fbd8ae7c03677787896c9b84638d9e30ef74e7d7f23413653d2afa26c1867_bfc653e91d40d5ee.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\background.jpg" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\eraser.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\izlaz.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\licni podaci.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\logo.ico" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\logo.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\new.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\obracunski period.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\podaci o prebivalistu.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\search big.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\search.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\stanje vode.png" />
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\write.png" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

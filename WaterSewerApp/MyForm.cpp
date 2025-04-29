@@ -8,6 +8,6 @@ void main(array<String^>^ args)
 {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
-    NTPprojekat::MyForm form;
+    WaterSewerApp::MyForm form;
     Application::Run(% form);
 }

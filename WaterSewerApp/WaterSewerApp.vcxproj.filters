@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="img">
+      <UniqueIdentifier>{be3c4f52-605f-4aeb-a3be-a760953f085f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\my_file.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\0-02-05-b1fe12c20337936ea89b1300a0487cdb6b8dc8ec7d5146e641df40e34c120162_bc3c5177e3bf886f.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\0-02-05-fb7fbd8ae7c03677787896c9b84638d9e30ef74e7d7f23413653d2afa26c1867_bfc653e91d40d5ee.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\background.jpg">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\eraser.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\izlaz.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\licni podaci.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\logo.ico">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\logo.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\new.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\obracunski period.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\podaci o prebivalistu.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\search big.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\search.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\stanje vode.png">
+      <Filter>img</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\WaterSewerApp\WaterSewerApp-CPP-Forms\img\write.png">
+      <Filter>img</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+# Visual Studio build files
+x64/
+Debug/
+Release/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.log
+
+# User-specific files
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+
+# Other ignores
+.DS_Store       # macOS
+Thumbs.db       # Windows
+.vs/
+*.ipch
+*.db

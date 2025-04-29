@@ -1,4 +1,4 @@
-﻿#pragma
+﻿#pragma once
 #include <string>
 #include <msclr/marshal_cppstd.h>
 #include<fstream>
@@ -7,9 +7,7 @@
 #include<time.h>
 #include<stdlib.h>
 
-
-
-namespace NTPprojekat {
+namespace WaterSewerApp {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -2053,7 +2051,7 @@ namespace NTPprojekat {
 
 			trazeniBrRacuna = Convert::ToInt32(trazeniRacunInput->Text);
 
-			
+
 			string prijemStringa;
 			while (inFile >> brRacuna)
 			{
@@ -2313,4 +2311,5 @@ namespace NTPprojekat {
 	}
 
 	};
+
 }
